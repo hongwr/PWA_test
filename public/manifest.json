@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "testpage3",
   "display": "fullscreen",
   "theme_color": "#ffc107",
   "background_color": "#ffc107"

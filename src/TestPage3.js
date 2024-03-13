@@ -2,12 +2,12 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
-const TestPage2 = () => {
+const TestPage3 = () => {
   const navigate = useNavigate();
 
   return (
     <Div>
-      <Button onClick={() => navigate('/testpage3')}>test222222222222222 page 입니다.</Button>
+      <Button onClick={() => navigate('/testpage4')}>test3333333333333333 page 입니다.</Button>
     </Div>
   );
 };
@@ -15,7 +15,7 @@ const TestPage2 = () => {
 const Div = styled.div`
   height: 100vh;
   width: 100vw;
-  background-color: red;
+  background-color: green;
 `;
 
 const Button = styled.button`
@@ -30,4 +30,4 @@ const Button = styled.button`
   }
 `;
 
-export default TestPage2;
+export default TestPage3;
