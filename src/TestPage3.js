@@ -7,7 +7,7 @@ const TestPage3 = () => {
 
   return (
     <Div>
-      <Button onClick={() => navigate('/testpage4')}>test3 push 및 호스팅 시 변화 확인</Button>
+      <Button onClick={() => navigate('/testpage4')}>test3 호스팅 변화 체크</Button>
     </Div>
   );
 };
